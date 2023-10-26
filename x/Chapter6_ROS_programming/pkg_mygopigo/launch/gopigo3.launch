@@ -1,3 +1,0 @@
-<launch>
-  <node name="gopigo3" pkg="mygopigo" type="gopigo3_driver.py" output="screen" />
-</launch>
