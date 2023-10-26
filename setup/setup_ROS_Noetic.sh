@@ -16,7 +16,7 @@ sudo apt update
 # sudo dpkg --configure -a
 
 # Install ROS Noetic
-sudo apt install ros-noetic-ros-base
+sudo apt install ros-noetic-desktop
 
 # Set up env for ROS
 source /opt/ros/noetic/setup.bash
