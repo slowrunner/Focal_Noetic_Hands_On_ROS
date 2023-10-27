@@ -19,4 +19,10 @@ to be a companion to BR Japon book "Hands On ROS For Robotics Programming"
   publishing /odom  (untuned WHEEL_DIAMETER drive 1m publishes 1.39m)  
 * Distance_Sensor node works - 443mm publishes 448mm  
 
- 
+# Installation  
+
+```
+cd ~  
+wget https://github.com/slowrunner/Focal_Noetic_Hands_On_ROS.git /home/pi  
+source Focal_Noetic_Hands_On_ROS/setup/install_gopigo3_on_ubuntu.sh  
+```
