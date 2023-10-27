@@ -2,6 +2,11 @@
 
 # Install GoPiGo3 software on Ubuntu 20.04 Server (Focal Fossa)
 
+# USAGE:  
+#  cd ~
+#  wget https://github.com/slowrunner/Focal_Noetic_Hands_On_ROS.git /home/pi
+#  source Focal_Noetic_Hands_On_ROS/setup/install_gopigo3_on_ubuntu.sh
+
 # === install gcc and make
 sudo apt install -y gcc
 sudo apt install -y make
@@ -19,12 +24,7 @@ sudo chgrp gpio /sys/class/gpio/unexport
 sudo chmod 770 /sys/class/gpio/export
 sudo chmod 770 /sys/class/gpio/unexport
 
-# Bring down the code
-wget https://raw.githubusercontent.com/slowrunner/ROS2-GoPiGo3/main/utils/pigpiod.service
-wget https://raw.githubusercontent.com/slowrunner/ROS2-GoPiGo3/main/utils/99-com.rules
-# Will need the following after this script finishes
-# wget https://raw.githubusercontent.com/slowrunner/ROS2-GoPiGo3/main/Setup_2_ROS2_HumbleHawksbill_on_GoPiGo3.sh
-# chmod 777 Setup_2_ROS2_HumbleHawksbill_on_GoPiGo3.sh
+
 
 # sudo git clone -b install_on_ubuntu http://www.github.com/DexterInd/GoPiGo3.git /home/pi/Dexter/GoPiGo3
 git clone http://www.github.com/DexterInd/GoPiGo3.git /home/pi/Dexter/GoPiGo3
@@ -87,7 +87,7 @@ cp /home/pi/Dexter/GoPiGo3/Install/list_of_serial_numbers.pkl /home/pi/Dexter/.l
 sudo apt install -y espeak-ng
 pip3 install py-espeak-ng
 espeak-ng "Am I alive? Can you hear me?"
-# Install ffmpeg to allow ffplay to play tts from espeak-ng -w file 
+# Still needed?  Install ffmpeg to allow ffplay to play tts from espeak-ng -w file 
 sudo apt install -y ffmpeg
 
 echo ""
@@ -97,7 +97,7 @@ ls /usr/local/lib/python*/dist-packages/Dexter*
 unzip -l /usr/local/lib/python3.8/dist-packages/Dexter_AutoDetection_and_I2C_Mutex-*-py3.8.egg
 
 echo ""
-echo "***************"
+echo "******* TEST ********"
 python3 /home/pi/Dexter/GoPiGo3/Software/Python/Examples/Read_Info.py
 
 echo ""
