@@ -21,7 +21,7 @@ to be a companion to BR Japon book "Hands On ROS For Robotics Programming"
 
 # Installation  
 
-1) Image and configure Ubuntu 20.04 LTS Server (64-bit)  
+1) ==== Image and configure Ubuntu 20.04 LTS Server (64-bit)  
 - verify pi user, ssh, wifi  
 - Disable ipv6 if desired: ipv6.disable=1 at end of /boot/firmware/cmdline.txt  
 - sudo apt remove unattended-upgrades  (a no-no by some folk)  
@@ -37,9 +37,9 @@ to be a companion to BR Japon book "Hands On ROS For Robotics Programming"
   %sudo	ALL=(ALL:ALL) NOPASSWD: ALL
   ```
 - make a backup of this "clean, prepared OS"  
-
-
-2)  Install GoPiGo3 Software  
+  
+  
+2)  ==== Install GoPiGo3 Software  
 
 ```
 cd ~  
@@ -48,15 +48,21 @@ source Focal_Noetic_Hands_On_ROS/setup/install_gopigo3_on_ubuntu.sh
 
 ```
 
-3) Install ROS Noetic Desktop  
+  
+3) ==== Install ROS Noetic Desktop  
+
 ```
 cd ~  
 source Focal_Noetic_Hands_On_ROS/setup/setup_ROS_Noetic.sh  
-```
-
+```  
+  
+  
 4) Setup "Noetic Version Hands On ROS code"  
+  
 ```
 source Focal_Noetic_Hands_On_ROS/setup/get_noetic_HoROS_code.sh  
 ```
+  
+  
 5) Test Installation
 
