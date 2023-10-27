@@ -51,5 +51,12 @@ source Focal_Noetic_Hands_On_ROS/setup/install_gopigo3_on_ubuntu.sh
 3) Install ROS Noetic Desktop  
 ```
 cd ~  
-source Focal_Noetic_Hands_On_ROS/setup/install_ROS_Noetic.sh  
+source Focal_Noetic_Hands_On_ROS/setup/setup_ROS_Noetic.sh  
 ```
+
+4) Setup "Noetic Version Hands On ROS code"  
+```
+source Focal_Noetic_Hands_On_ROS/setup/get_noetic_HoROS_code.sh  
+```
+5) Test Installation
+
