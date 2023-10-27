@@ -13,7 +13,7 @@ to be a companion to BR Japon book "Hands On ROS For Robotics Programming"
 * Basic Test of ROS Noetic with Chapter3_ROS_Basics (success)  
   run_teleop_twist_keyboard script  
   echo_cmd_vel script  
-* Basic test of a ROS Noetic GoPiGo3 node with teleop_twist_keyboard 
+* Basic test of a ROS Noetic GoPiGo3 node with teleop_twist_keyboard  
   "i-key" drives robot forward  
   "k-key" stops robot  
   publishing /odom  (untuned WHEEL_DIAMETER drive 1m publishes 1.39m)  
