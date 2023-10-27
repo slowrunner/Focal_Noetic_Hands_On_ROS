@@ -28,14 +28,13 @@ to be a companion to BR Japon book "Hands On ROS For Robotics Programming"
 - sudo apt install net-tools  
 - sudo apt update; sudo apt upgrade  
 - sudo apt install ubuntu-desktop  
-- === CONFIGURE PASSWORD-LESS SUDO  
+- Configure Password-less sudo  
   - sudo nano /etc/sudoers  
-
   make sudo group look like:  
   ```
   # Allow members of group sudo to execute any command
   %sudo	ALL=(ALL:ALL) NOPASSWD: ALL
-  ```
+  ```  
 - make a backup of this "clean, prepared OS"  
   
   
@@ -46,23 +45,23 @@ cd ~
 git clone https://github.com/slowrunner/Focal_Noetic_Hands_On_ROS.git /home/pi/Focal_Noetic_Hands_On_ROS  
 source Focal_Noetic_Hands_On_ROS/setup/install_gopigo3_on_ubuntu.sh  
 
-```
-
+```  
+  
   
 3) ==== Install ROS Noetic Desktop  
-
-```
+  
+```  
 cd ~  
 source Focal_Noetic_Hands_On_ROS/setup/setup_ROS_Noetic.sh  
 ```  
   
   
-4) Setup "Noetic Version Hands On ROS code"  
+4) ==== Setup "Noetic Version Hands On ROS code"  
   
 ```
 source Focal_Noetic_Hands_On_ROS/setup/get_noetic_HoROS_code.sh  
-```
+```  
   
   
-5) Test Installation
+5) ==== Test Installation
 
