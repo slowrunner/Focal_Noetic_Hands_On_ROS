@@ -90,6 +90,19 @@ espeak-ng "Am I alive? Can you hear me?"
 # Still needed?  Install ffmpeg to allow ffplay to play tts from espeak-ng -w file 
 sudo apt install -y ffmpeg
 
+# === Setup ip feedback service to read out ip at boot time
+echo ""
+echo "****** setting up ip feedback on boot ***"
+echo ""
+chmod 777 ~/Focal_Noetic_Hands_On_ROS/setup/ip_feedback.sh
+
+echo "copying ip_feedback.service to /etc/systemd/system"
+sudo cp ~/Focal_Noetic_Hands_On_ROS/setup/etc_systemd_system.ip_feedback.service /etc/systemd/system/ip_feedback.service
+sudo systemctl daemon-reload
+sudo systemctl enable ip_feedback
+sudo service ip_feedback start
+
+
 echo ""
 echo "***************"
 echo "Check that the mutex stuff will be available"
