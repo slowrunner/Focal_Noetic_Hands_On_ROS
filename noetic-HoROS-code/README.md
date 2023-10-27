@@ -1,9 +1,11 @@
 
 
 
-# Hands-On-ROS-for-Robotics-Programming
-Hands-On ROS for Robotics Programming, published by Packt
-### Download a free PDF
+# Modified for Noetic (Python3) Hands-On-ROS-for-Robotics-Programming code
+BR Japon, "Hands-On ROS for Robotics Programming" (using the GoPiGo3), published by Packt
 
- <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
-<p align="center"> <a href="https://packt.link/free-ebook/9781838551308">https://packt.link/free-ebook/9781838551308 </a> </p>
+
+The only code changed/modified for Noetic/Python3 in this directory are:
+- gopigo3_node/
+- Chapter3_ROS_Basics
+
