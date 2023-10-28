@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # https://picamera.readthedocs.io/en/release-1.13/recipes1.html#capturing-to-a-file
 
 from time import sleep
