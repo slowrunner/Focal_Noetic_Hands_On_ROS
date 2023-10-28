@@ -62,14 +62,6 @@ sudo apt  install -y libffi-dev
 cd /home/pi/Dexter/lib/Dexter//RFR_Tools/miscellaneous/
 sudo python3 setup.py install
 
-# ==== GPG3_POWER SERVICE ===
-cd ~
-sudo cp /home/pi/Dexter/GoPiGo3/Install/gpg3_power.service /etc/systemd/system
-sudo chmod 644 /etc/systemd/system/gpg3_power.service
-sudo systemctl daemon-reload
-sudo systemctl enable gpg3_power.service
-sudo systemctl start gpg3_power.service
-systemctl status gpg3_power.service
 
 # ==== SETUP GoPiGo3 and DI_Sensors Python3 eggs
 cd /home/pi/Dexter/GoPiGo3/Software/Python
@@ -109,6 +101,15 @@ echo "Check that the mutex stuff will be available"
 ls /usr/local/lib/python*/dist-packages/Dexter*
 unzip -l /usr/local/lib/python3.8/dist-packages/Dexter_AutoDetection_and_I2C_Mutex-*-py3.8.egg
 
+# ==== GPG3_POWER SERVICE ===
+cd ~
+sudo cp /home/pi/Dexter/GoPiGo3/Install/gpg3_power.service /etc/systemd/system
+sudo chmod 644 /etc/systemd/system/gpg3_power.service
+sudo systemctl daemon-reload
+sudo systemctl enable gpg3_power.service
+sudo systemctl start gpg3_power.service
+systemctl status gpg3_power.service
+
 echo ""
 echo "******* TEST ********"
 python3 /home/pi/Dexter/GoPiGo3/Software/Python/Examples/Read_Info.py
@@ -123,5 +124,5 @@ echo ""
 
 echo ""
 echo "****"
-echo "Done gopigo3 setup - ready for reboot"
+echo "Done gopigo3 setup - ready for MANDATORY reboot"
 echo "****"
