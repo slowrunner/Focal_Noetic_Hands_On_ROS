@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # import the modules
 from di_sensors.easy_distance_sensor import EasyDistanceSensor
