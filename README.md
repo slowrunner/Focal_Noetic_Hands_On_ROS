@@ -62,6 +62,7 @@ source Focal_Noetic_Hands_On_ROS/setup/setup_ROS_Noetic.sh
 4) ==== Setup "Noetic Version Hands On ROS code"  
   
 ```
+cd ~
 source Focal_Noetic_Hands_On_ROS/setup/get_noetic_HoROS_code.sh
 
 ```  
