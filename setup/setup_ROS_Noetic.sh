@@ -16,17 +16,17 @@ sudo apt update
 # sudo dpkg --configure -a
 
 # Install ROS Noetic
-sudo apt install ros-noetic-desktop
+sudo apt install -y ros-noetic-desktop
 
 # Set up env for ROS
 source /opt/ros/noetic/setup.bash
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 
 # Install needed ROS dependencies
-sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential python3-catkin-tools
+sudo apt install -y python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential python3-catkin-tools
 
 # Install useful ROS packages
-sudo apt install ros-noetic-teleop-twist-keyboard
+sudo apt install -y ros-noetic-teleop-twist-keyboard
 
 # Init rosdep and update dependencies
 sudo rosdep init
