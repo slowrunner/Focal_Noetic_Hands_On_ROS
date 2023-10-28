@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # https://picamera.readthedocs.io/en/release-1.13/recipes1.html#stream-capture
 
 from time import sleep
