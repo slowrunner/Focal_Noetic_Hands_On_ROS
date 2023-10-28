@@ -35,7 +35,9 @@ to be a companion to BR Japon book "Hands On ROS For Robotics Programming"
   # Allow members of group sudo to execute any command
   %sudo	ALL=(ALL:ALL) NOPASSWD: ALL
   ```  
-- make a backup of this "clean, prepared OS"  
+- install/configure tigervncserver
+  
+- MAKE A BACKUP of this "clean, prepared OS"  
   
   
 2)  ==== Install GoPiGo3 Software  
