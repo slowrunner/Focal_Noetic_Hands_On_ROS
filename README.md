@@ -46,6 +46,7 @@ to be a companion to BR Japon book "Hands On ROS For Robotics Programming"
 cd ~  
 git clone https://github.com/slowrunner/Focal_Noetic_Hands_On_ROS.git /home/pi/Focal_Noetic_Hands_On_ROS  
 source Focal_Noetic_Hands_On_ROS/setup/install_gopigo3_on_ubuntu.sh  
+echo "Done GoPiGo3 Install"
 
 ```  
   
