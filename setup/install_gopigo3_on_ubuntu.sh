@@ -39,13 +39,13 @@ sudo apt install -y python3-rpi.gpio
 
 sudo apt install -y unzip
 
-# === pigpiod
-
+# === pigpiod 
+# may not need this anymore - if comes with raspberry pi distribution of Ubuntu 20.04
 wget https://github.com/joan2937/pigpio/archive/master.zip
 unzip master.zip
 cd pigpio-master
 make
-sudo make install
+# sudo make install
 cd ..
 rm master.zip
 
