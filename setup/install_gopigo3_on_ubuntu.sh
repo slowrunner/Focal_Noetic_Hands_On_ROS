@@ -49,8 +49,8 @@ sudo make install
 cd ..
 rm master.zip
 
-
-sudo cp /home/pi/Focal_Noetic_Hands_On_ROS/setup/pigpiod.service /etc/systemd/system
+# maybe don't need this anymore - causing problems running GoPiGo3 python after ROS GoPiGo3 node?
+# sudo cp /home/pi/Focal_Noetic_Hands_On_ROS/setup/pigpiod.service /etc/systemd/system
 sudo systemctl enable pigpiod.service
 sudo systemctl start pigpiod.service
 systemctl status pigpiod.service
