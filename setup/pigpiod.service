@@ -1,4 +1,6 @@
-[Unit] Description=Daemon required to control GPIO pins via pigpio
+[Unit] 
+Description=Daemon required to control GPIO pins via pigpio
+After=network.target syslog.target
 
 [Service]
 ExecStart=/usr/local/bin/pigpiod
