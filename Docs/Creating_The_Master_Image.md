@@ -27,6 +27,11 @@ git clone https://github.com/slowrunner/Focal_Noetic_Hands_On_ROS.git /home/pi/F
 source Focal_Noetic_Hands_On_ROS/setup/install_gopigo3_on_ubuntu.sh  
 echo "Done GoPiGo3 Install"
 
+```
+  
+  * Then:  
+```
+sudo reboot  
 ```  
   
   
@@ -34,18 +39,24 @@ echo "Done GoPiGo3 Install"
   
 ```  
 cd ~  
-source Focal_Noetic_Hands_On_ROS/setup/setup_ROS_Noetic.sh
-
-```  
+source Focal_Noetic_Hands_On_ROS/setup/setup_ROS_Noetic.sh  
   
+```    
+
   
 4) ==== Setup "Noetic Version Hands On ROS code"  
   
 ```
 cd ~
 source Focal_Noetic_Hands_On_ROS/setup/get_noetic_HoROS_code.sh
-
-```  
   
+```    
+  
+  * Then:
+```
+sudo reboot
+  
+```
+
   
 5) ==== Test Installation
