@@ -40,17 +40,17 @@ sudo apt install -y python3-rpi.gpio
 sudo apt install -y unzip
 
 # === pigpiod 
-# may not need this anymore - if comes with raspberry pi distribution of Ubuntu 20.04
+# 
 wget https://github.com/joan2937/pigpio/archive/master.zip
 unzip master.zip
 cd pigpio-master
 make
-# sudo make install
+sudo make install
 cd ..
 rm master.zip
 
-# maybe don't need this anymore - causing problems running GoPiGo3 python after ROS GoPiGo3 node?
-# sudo cp /home/pi/Focal_Noetic_Hands_On_ROS/setup/pigpiod.service /etc/systemd/system
+# 
+sudo cp /home/pi/Focal_Noetic_Hands_On_ROS/setup/pigpiod.service /etc/systemd/system
 sudo systemctl enable pigpiod.service
 sudo systemctl start pigpiod.service
 systemctl status pigpiod.service
