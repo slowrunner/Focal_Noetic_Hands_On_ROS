@@ -39,7 +39,7 @@ sudo reboot
   
 ```  
 cd ~  
-source Focal_Noetic_Hands_On_ROS/setup/setup_ROS_Noetic.sh  
+source ~/Focal_Noetic_Hands_On_ROS/setup/setup_ROS_Noetic.sh  
   
 ```    
 
@@ -48,7 +48,7 @@ source Focal_Noetic_Hands_On_ROS/setup/setup_ROS_Noetic.sh
   
 ```
 cd ~
-source Focal_Noetic_Hands_On_ROS/setup/get_noetic_HoROS_code.sh
+source ~/Focal_Noetic_Hands_On_ROS/setup/get_noetic_HoROS_code.sh
   
 ```    
   
