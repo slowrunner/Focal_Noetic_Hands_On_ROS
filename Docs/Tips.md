@@ -1,4 +1,5 @@
-# TIPS For Using ROS Noetic / Ubuntu 20.04 With "Hands On ROS For Robotics Programming"
+# TIPS For Using ROS Noetic / Ubuntu 20.04  
+# With "Hands On ROS For Robotics Programming"  
 
 This image is based on Ubuntu 20.04 which includes Python3,  
 now that python (python2.x) is obsoleted.
