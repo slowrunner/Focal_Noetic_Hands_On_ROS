@@ -29,6 +29,7 @@ is available as a 3.7GB image at:
     
   Select CHOOSE STORAGE (DANGER! - CHOOSE WISELY)  
     Select your Generic STORAGE DEVICE Media - 32 GB SD Card (Minimum 16GB)  
+    Expanded image will take 11GB - 32GB card recommended
   
   Select NEXT  
     Use OS customisation?  Select NO  (Custom Settings will not work, trust me)  
