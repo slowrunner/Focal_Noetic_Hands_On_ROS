@@ -20,7 +20,7 @@ is available as a 3.7GB image at:
   
   Select CHOOSE DEVICE - Pick Raspberry Pi 4  
     This image has been tested to run on Raspberry Pi 4 with 2GB RAM  
-    (Pi3B/Pi3B+ robots should use the ROS Melodic Ubuntu Mate 18.04)  
+    (Pi3B/Pi3B+ robots should use the ROS Melodic Ubuntu Mate 18.04) 
     
   Select CHOOSE OS  
     (scroll to bottom) Use custom  
@@ -88,16 +88,23 @@ is available as a 3.7GB image at:
   sudo reboot  
   Will announce IP over speaker/headphones  
   
-## 7) == REMOTE DESKTOP  
+## 7) == TRY REMOTE DESKTOP  
   Mac:  splat-k - enter vnc://xx.xx.xx.xx:5901  
         Enter vncpassword set above  
         **DO NOT LOG OUT FROM THE VNC SESSION.**  
         **CLOSE IT, BUT DO NOT LOG OUT - YOU WILL NOT GET A SECOND WARNING**  
   
-## 8) == UPDATE THE SYSTEM  
+## 8) == TRY SSH REMOTE TERMINAL
+  ssh pi@xx.xx.xx.xx
+  (if problem - try ```ssh-keygen -R xx.xx.xx.xx``, then retry the ssh)
+  
+## 9) == UPDATE THE SYSTEM  
 Open Terminal:  
 - sudo apt update  
-- sudo apt upgrade
+- sudo apt upgrade  
+  
+## 10) == SHUTDOWN  
+- sudo shutdown -h \[now\]  
 
 
   
