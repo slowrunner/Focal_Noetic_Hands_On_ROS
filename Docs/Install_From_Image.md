@@ -105,7 +105,11 @@ Open Terminal:
 - sudo apt upgrade  
   
 ## 10) == SHUTDOWN  
-- sudo shutdown -h \[now\]  
+- sudo shutdown -h \[now\]
+
+## 11) == REVIEW TIPS 
+
+[Tips on using this image with the book](https://github.com/slowrunner/Focal_Noetic_Hands_On_ROS/blob/main/Docs/Tips.md)
 
 
   
