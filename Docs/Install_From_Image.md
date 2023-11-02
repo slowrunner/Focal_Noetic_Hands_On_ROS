@@ -96,7 +96,8 @@ is available as a 3.7GB image at:
   
 ## 8) == TRY SSH REMOTE TERMINAL
   ssh pi@xx.xx.xx.xx
-  (if problem - try ```ssh-keygen -R xx.xx.xx.xx``, then retry the ssh)
+  (if problem - try ```ssh-keygen -R xx.xx.xx.xx``, then retry the ssh)  
+  BTW: If boot with no display and just ssh in, OS only uses 700MB memory  
   
 ## 9) == UPDATE THE SYSTEM  
 Open Terminal:  
