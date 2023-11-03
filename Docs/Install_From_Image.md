@@ -83,22 +83,25 @@ is available as a 3.7GB image at:
     $ ifconfig  
     (Note wlan0 ip address)  
   
-## 6) == REBOOT  
-  Optional:  Connect speaker or headphones to 3.5mm jack  
+## 6) == REBOOT (to test WiFi connection and IP Feedback)
+  Connect speaker or headphones to 3.5mm jack  
   Open Terminal, enter:  
   sudo reboot  
-  Will announce IP over speaker/headphones  
+  After 2-3 minutes, will announce IP over speaker/headphones  
+  sudo shutdown -h now
   
-## 7) == TRY REMOTE DESKTOP  
+## 7) == BOOT in Pi4 GoPiGo3
+  Connect speaker to GoPiGo3 Pi4 3.5mm jack (to know the granted IP)  
+  ssh pi@xx.xx.xx.xx  
+  (if problem - try ```ssh-keygen -R xx.xx.xx.xx``, then retry the ssh)  
+  BTW: If boot with no display and just ssh in, OS only uses 700MB memory  
+  
+## 8) == TRY REMOTE DESKTOP  
   Mac:  splat-k - enter vnc://xx.xx.xx.xx:5901  
         Enter vncpassword set above  
         **DO NOT LOG OUT FROM THE VNC SESSION.**  
         **CLOSE IT, BUT DO NOT LOG OUT - YOU WILL NOT GET A SECOND WARNING**  
   
-## 8) == TRY SSH REMOTE TERMINAL
-  ssh pi@xx.xx.xx.xx
-  (if problem - try ```ssh-keygen -R xx.xx.xx.xx``, then retry the ssh)  
-  BTW: If boot with no display and just ssh in, OS only uses 700MB memory  
   
 ## 9) == UPDATE THE SYSTEM  
 Open Terminal:  
