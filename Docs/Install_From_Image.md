@@ -48,8 +48,8 @@ is available as a 3.7GB image at:
   - Turn Battery Switch to On  
   - Press the GoPiGo3 power (on) button to start the first boot   
   - The system will boot, then reboot,  
-    after about 4 minutes ... it will display the desktop with pi username filled in 
-    (It may also show console - wiggle the mouse a while till it repaints the desktop)  
+    **after about 4 minutes** ... it will display the desktop with pi username filled in 
+    (It may also show console - click the mouse or wiggle the mouse a while till it repaints the desktop)  
   - Click on the Pi user (or press Enter Key)  
   - Enter robots1234 for the password  
       
