@@ -44,15 +44,24 @@ is available as a 3.7GB image at:
      
     
 ## 3) First Boot (can be in any Pi4, does not need to be mounted to GoPiGo3 yet)  
-  - **Connect Keyboard, HDMI Display, and Mouse**  
+  - **Connect Mouse, HDMI Display, (and Wired Keyboard if available)**  
   - Turn Battery Switch to On  
   - Press the GoPiGo3 power (on) button to start the first boot   
   - The system will boot, then reboot,  
     **after about 4 minutes** ... it will display the desktop with pi username filled in 
-    (It may also show console - click the mouse or wiggle the mouse a while till it repaints the desktop)  
-  - Click on the Pi user (or press Enter Key)  
-  - Enter robots1234 for the password  
-      
+    (It may also show console - click the mouse to repaint the desktop)  
+  - Click on the Pi user  
+    (or press Enter Key on wired keyboard )  
+  - Enter robots1234 for the password and then press Enter-key  
+    **If no wired keyboard:**
+    - Click on the "Accessibility" tiny person widget, click on "Screen Keyboard"  
+    - type robots1234 - if don't see "dots" as you click keys:  
+      click in Password entry-box **TWICE** (screen keyboard will close then open again)  
+      Click keys for robots1234, then click "Enter/Return" key  
+    - Click pull-down arrow on far right top of display (Settings)  
+      Scroll in left pane of Settings to Universal Access, Click it  
+      Click Screen Keyboard to show "on" (right side of toggle)  
+      Close Settings  
 ## 4)  === Change passwords  
   - Click terminal icon ">_" on left  
   - $  
