@@ -55,3 +55,7 @@ This image uses ROS Noetic which is the latest and last ROS that will be release
   (instead of pg 166 git clone and copy)
 <br>
 <br>
+
+## == SHUTDOWN  
+- sudo shutdown -h \[now\]
+
