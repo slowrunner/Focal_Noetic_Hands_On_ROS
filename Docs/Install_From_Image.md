@@ -110,19 +110,19 @@ is available as a 3.7GB image at:
         Enter vncpassword set above  
         **DO NOT LOG OUT FROM THE VNC SESSION.**  
         **CLOSE IT, BUT DO NOT LOG OUT - YOU WILL NOT GET A SECOND WARNING**  
+
+## 9) == APPLY UPDATES SINCE IMAGE CREATED  
+[Visit Update Page then return](https://github.com/slowrunner/Focal_Noetic_Hands_On_ROS/edit/main/Docs/Updates.md)  
   
-  
-## 9) == UPDATE THE SYSTEM  
+## 10) == UPDATE THE SYSTEM  
 Open Terminal:  
 - sudo apt update  
 - sudo apt upgrade  
   
-## 10) == SHUTDOWN  
-- sudo shutdown -h \[now\]
+## 11) == REVIEW TIPS  
+  
+[Tips on using this image with the book](https://github.com/slowrunner/Focal_Noetic_Hands_On_ROS/blob/main/Docs/Tips.md)  
 
-## 11) == REVIEW TIPS 
-
-[Tips on using this image with the book](https://github.com/slowrunner/Focal_Noetic_Hands_On_ROS/blob/main/Docs/Tips.md)
 
 
   
